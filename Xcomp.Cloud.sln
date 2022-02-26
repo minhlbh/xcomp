@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xcomp.Cloud.Api", "Xcomp.Cloud.Api\Xcomp.Cloud.Api.csproj", "{CBB353E6-F893-4D33-AACD-E847B6AF54A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xcomp.Cloud.Data", "Xcomp.Cloud.Data\Xcomp.Cloud.Data.csproj", "{DEC5DA92-F737-4293-9E57-EC056A59E8CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xcomp.Cloud.Data", "Xcomp.Cloud.Data\Xcomp.Cloud.Data.csproj", "{DEC5DA92-F737-4293-9E57-EC056A59E8CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xcomp.Cloud.Share", "Xcomp.Cloud.Share\Xcomp.Cloud.Share.csproj", "{151FA399-0B29-44F4-9A6B-AFBD764EC169}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xcomp.Cloud.Share", "Xcomp.Cloud.Share\Xcomp.Cloud.Share.csproj", "{151FA399-0B29-44F4-9A6B-AFBD764EC169}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xcomp.Cloud.Core", "Xcomp.Cloud.Core\Xcomp.Cloud.Core.csproj", "{655D56AC-BF67-4A17-AAF0-B8DD617C1AE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xcomp.Cloud.Core", "Xcomp.Cloud.Core\Xcomp.Cloud.Core.csproj", "{655D56AC-BF67-4A17-AAF0-B8DD617C1AE4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xcomp.Cloud.Api", "Xcomp.Cloud.Api\Xcomp.Cloud.Api.csproj", "{96863E5E-374C-4B12-B7C1-43695F83DEB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CBB353E6-F893-4D33-AACD-E847B6AF54A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CBB353E6-F893-4D33-AACD-E847B6AF54A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CBB353E6-F893-4D33-AACD-E847B6AF54A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CBB353E6-F893-4D33-AACD-E847B6AF54A9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DEC5DA92-F737-4293-9E57-EC056A59E8CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DEC5DA92-F737-4293-9E57-EC056A59E8CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEC5DA92-F737-4293-9E57-EC056A59E8CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{655D56AC-BF67-4A17-AAF0-B8DD617C1AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{655D56AC-BF67-4A17-AAF0-B8DD617C1AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{655D56AC-BF67-4A17-AAF0-B8DD617C1AE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96863E5E-374C-4B12-B7C1-43695F83DEB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96863E5E-374C-4B12-B7C1-43695F83DEB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96863E5E-374C-4B12-B7C1-43695F83DEB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96863E5E-374C-4B12-B7C1-43695F83DEB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
