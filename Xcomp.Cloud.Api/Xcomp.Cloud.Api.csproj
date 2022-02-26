@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -7,7 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
-
+	<ItemGroup>
+		<ProjectReference Include="..\Xcomp.Cloud.Share\Xcomp.Cloud.Share.csproj" />
+		<ProjectReference Include="..\Xcomp.Cloud.Core\Xcomp.Cloud.Core.csproj" />
+		<ProjectReference Include="..\Xcomp.Cloud.Data\Xcomp.Cloud.Data.csproj" />
+	</ItemGroup>
 </Project>
